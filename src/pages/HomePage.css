@@ -1,0 +1,38 @@
+.home-div {
+  /* width: 70vw;
+  max-width: 1170px;
+  height: 100vw;
+  margin: 0 auto;
+  padding-top: 5rem;
+  background-color: rgb(196, 105, 105);
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 19rem; */
+}
+
+.blink-text {
+  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  position: absolute;
+  font-size: 80pt;
+  font-family: Montserrat-Bold;
+  width: 100vw;
+  z-index: 1000;
+  opacity: 0.3;
+}
+
+.home-img {
+  position: relative;
+  width: 1500px;
+}
+.home-img > img {
+  max-width: 3000%;
+  max-height: 100%;
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: local("Montserrat-Bold"),
+    url(./../fonts/Montserrat-Bold.ttf) format("truetype");
+}

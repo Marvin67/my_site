@@ -1,0 +1,58 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.side-div {
+  width: 18%;
+  list-style: none;
+  background-color: transparent;
+  text-align: right;
+  padding-top: 2%;
+  list-style: none;
+  flex-flow: row nowrap;
+  position: absolute;
+}
+.project-link {
+  text-decoration: none;
+  color: black;
+  font-size: 8pt;
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+}
+
+.project-link:hover {
+  opacity: 0.4;
+  cursor: crosshair;
+}
+
+.side-div li {
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+@font-face {
+  font-family: GillSansMTPro-Light;
+  src: local("GillSansMTPro-Light"),
+    url(./../fonts/GillSansMTPro-Light.otf) format("truetype");
+}
+
+.big-img-div {
+  display: inline-block;
+}
+
+.big-img-div .text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  top: 46%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  left: 90%;
+  width: 5px;
+}
+
+.sucks-gif {
+  height: 23px;
+  width: 90px;
+}

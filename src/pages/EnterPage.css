@@ -1,0 +1,66 @@
+.container {
+  position: fixed;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.home-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  margin-top: 0;
+}
+
+@font-face {
+  font-family: Montserrat-ExtraLight;
+  src: local("Montserrat-ExtraLight"),
+    url(./../fonts/Montserrat-ExtraLight.ttf) format("truetype");
+}
+.schmutzi {
+  color: #ffff;
+  font-family: Montserrat-ExtraLight;
+  font-weight: 5;
+  font-size: 40pt;
+  margin-top: 76pt;
+  margin-bottom: 0;
+  margin-left: 38%;
+  z-index: 1;
+  position: absolute;
+}
+
+.quote {
+  z-index: 1;
+  position: absolute;
+  margin-top: 124pt;
+  margin-bottom: 0;
+  margin-left: 38%;
+  font-size: 8pt;
+}
+
+.schmutzi:hover {
+  opacity: 0.2;
+  transition: 0.3s;
+  cursor: crosshair;
+}
+
+.quote {
+  color: rgb(66, 64, 66);
+  font-family: Montserrat-ExtraLight;
+  font-weight: 3;
+}
+
+@media (max-width: 768px) {
+  .schmutzi {
+    margin-left: 20%;
+    font-size: 40pt;
+    margin-top: 60pt;
+  }
+  .quote {
+    margin-left: 20%;
+    font-size: 7pt;
+    margin-top: 110pt;
+  }
+}

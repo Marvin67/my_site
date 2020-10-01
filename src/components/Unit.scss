@@ -1,0 +1,83 @@
+.unit {
+  background: rgb(255, 255, 255);
+  margin: 2rem 0;
+  margin-bottom: 5rem;
+
+  img {
+    width: 100%;
+    display: block;
+    min-height: 13rem;
+    z-index: 0;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+.unit-info-right {
+  text-align: left;
+  //padding: 7rem 0.5rem 0rem 0.5rem;
+}
+
+.unit-info-left {
+  //padding: 7rem 0.5rem 0rem 0.5rem;
+  text-align: right;
+}
+
+.name {
+  font-family: GillSansMTPro-Light;
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-size: 11pt;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  text-transform: capitalize;
+}
+
+.caption {
+  color: rgb(0, 0, 0);
+  font-size: 10pt;
+  padding: 0.2rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  font-family: GillSansMTPro-Light;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  .unit {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 0.5rem;
+  }
+}
+
+@font-face {
+  font-family: GillSansMTPro-Light;
+  src: local("GillSansMTPro-Light"),
+    url(./../fonts/GillSansMTPro-Light.otf) format("truetype");
+
+  font-family: GillSansMTPro-Book;
+  src: local("GillSansMTPro-Book"),
+    url(./../fonts/GillSansMTPro-Book.otf) format("truetype");
+}
+
+@font-face {
+  font-family: Proforma-UltraLight;
+  src: local("Proforma-UltraLight;"),
+    url(./../fonts/Proforma-UltraLight.otf) format("truetype");
+}
+
+@font-face {
+  font-family: GillSansMTPro-LightItalic;
+  src: local("GillSansMTPro-LightItalic"),
+    url(./../fonts/GillSansMTPro-LightItalic.otf) format("truetype");
+}

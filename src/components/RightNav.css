@@ -1,0 +1,29 @@
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 10pt;
+  padding: 15px 10px 0px 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.link:hover {
+  opacity: 0.5;
+  cursor: crosshair;
+}
+
+@font-face {
+  font-family: GillSansMTPro-Light;
+  src: local("GillSansMTPro-Light"),
+    url(./../fonts/GillSansMTPro-Light.otf) format("truetype");
+}
+
+.fa {
+  padding-right: 3.5rem;
+  padding-left: 1rem;
+  color: black;
+  padding-top: 0.1rem;
+}
+.fa:hover {
+  opacity: 0.5;
+  cursor: crosshair;
+}
