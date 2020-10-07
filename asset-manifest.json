@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/my_site/static/css/main.e32da68c.chunk.css",
+    "main.js": "/my_site/static/js/main.94bc014a.chunk.js",
+    "main.js.map": "/my_site/static/js/main.94bc014a.chunk.js.map",
+    "runtime-main.js": "/my_site/static/js/runtime-main.b97bf2da.js",
+    "runtime-main.js.map": "/my_site/static/js/runtime-main.b97bf2da.js.map",
+    "static/css/2.4f9c06f2.chunk.css": "/my_site/static/css/2.4f9c06f2.chunk.css",
+    "static/js/2.e5d4501e.chunk.js": "/my_site/static/js/2.e5d4501e.chunk.js",
+    "static/js/2.e5d4501e.chunk.js.map": "/my_site/static/js/2.e5d4501e.chunk.js.map",
+    "index.html": "/my_site/index.html",
+    "precache-manifest.07c593ad87bb45e98baff55e174fa7d3.js": "/my_site/precache-manifest.07c593ad87bb45e98baff55e174fa7d3.js",
+    "service-worker.js": "/my_site/service-worker.js",
+    "static/css/2.4f9c06f2.chunk.css.map": "/my_site/static/css/2.4f9c06f2.chunk.css.map",
+    "static/css/main.e32da68c.chunk.css.map": "/my_site/static/css/main.e32da68c.chunk.css.map",
+    "static/js/2.e5d4501e.chunk.js.LICENSE.txt": "/my_site/static/js/2.e5d4501e.chunk.js.LICENSE.txt",
+    "static/media/ContactPage.css": "/my_site/static/media/Montserrat-ExtraLight.38bc5e07.ttf",
+    "static/media/Unit.scss": "/my_site/static/media/Proforma-UltraLight.57c315d8.otf",
+    "static/media/HomePage.css": "/my_site/static/media/Montserrat-Bold.ade91f47.ttf",
+    "static/media/font-awesome.min.css": "/my_site/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/home_1.JPG": "/my_site/static/media/home_1.5e51bd91.JPG",
+    "static/media/home_2.JPG": "/my_site/static/media/home_2.cff1cac3.JPG",
+    "static/media/home_3.JPG": "/my_site/static/media/home_3.91a724cc.JPG",
+    "static/media/home_4.JPG": "/my_site/static/media/home_4.4f2aedf6.JPG",
+    "static/media/home_5.JPG": "/my_site/static/media/home_5.5c6cad50.JPG",
+    "static/media/home_6.JPG": "/my_site/static/media/home_6.d28e9364.JPG",
+    "static/media/ptica.gif": "/my_site/static/media/ptica.fc6adf9c.gif",
+    "static/media/sucks_slow.gif": "/my_site/static/media/sucks_slow.bbca2457.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b97bf2da.js",
+    "static/css/2.4f9c06f2.chunk.css",
+    "static/js/2.e5d4501e.chunk.js",
+    "static/css/main.e32da68c.chunk.css",
+    "static/js/main.94bc014a.chunk.js"
+  ]
+}
